@@ -1,0 +1,22 @@
+.one{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+
+.two{
+    font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+    font-weight: 700;
+  }
+.three{
+    font-family: "Jomhuria", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 400;
+}
