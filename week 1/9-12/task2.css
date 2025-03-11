@@ -1,0 +1,16 @@
+.element-1{
+    width: 400px;
+    background-color: beige;
+    margin: 30px;
+}
+.element-2{
+    width: 400px;
+    background-color: beige;
+    margin: 30px;
+    visibility: hidden;
+}
+.element-3{
+    width: 400px;
+    background-color: beige;
+    margin: 30px;
+}
