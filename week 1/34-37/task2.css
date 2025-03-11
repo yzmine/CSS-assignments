@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+}
+
+div{
+    background-color: gray;
+    color: black;
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+    padding: 20px;
+   position: relative;
+}
+/* I can't do it without using content */
+div::first-letter{
+    background-color: red;
+    padding: 10px;
+    color: white;
+    position: relative;    
+}
