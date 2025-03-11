@@ -1,0 +1,46 @@
+div{
+    background-color: #eee;
+    width: 400px;
+    text-align: center;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    border-right: 2px solid blue;
+    border-left: 2px solid blue;
+
+}
+.top-left{
+background-color: blue;
+    position: relative;
+    top: -66px;
+    bottom: 0px;
+    left: -295px;
+    right: 0px;
+    border-right: 1px solid red;
+}
+.bottom-left{
+    background-color: blue;
+    position: relative;
+    top: -66px;
+    bottom: 0px;
+    left: 94px;
+    right: 0px;
+    border-left: 1px solid red;
+}
+.top-right{
+    background-color: blue;
+    position: relative;
+    top: 9px;
+    bottom: 0px;
+    left: -319px;
+    right: 0px;
+    border-right: 1px solid red;
+}
+.bottom-right{
+    background-color: blue;
+    position: relative;
+    top: 10px;
+    bottom: 0px;
+    left: 71px;
+    right: 0px;
+    border-left: 1px solid red;
+}
