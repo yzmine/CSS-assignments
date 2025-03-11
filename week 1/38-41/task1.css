@@ -1,0 +1,42 @@
+div{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #EEE;
+    margin: 40px ;
+    counter-increment: count;
+    position: relative;
+    border: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow:         -5px -5px 0 0 #e91e63,        5px 5px 0 0 #2196f3;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+div::after{
+    content: counter(count);
+    display: inline-block;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px 9px;
+    position: absolute;
+    top: -15px;
+    left: 35px;
+    font-size: 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+div::before{
+    content: "Element";
+    position: absolute;
+    width: 60px;
+    height: 20px;
+    top: 40px;
+    left: 20px;
+}

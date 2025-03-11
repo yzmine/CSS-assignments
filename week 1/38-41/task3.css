@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.parent{
+    position: relative;;
+    justify-content: center;  
+    align-items: center;
+    width: 550px;
+    
+}
+.child{
+    display: inline-block;
+    width: calc((100% - 120px)/2);
+    height: 300px;
+    margin-left: 40px;
+    background-color: #eeeeee;
+}
+.child div{
+    width: 190px;
+    margin: 10px auto;
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+}
+.child div.head{
+    background-color: #03a9f4;
+    color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-weight: bold;
+}
+.child div.price{
+    background-color: #dddddd;
+    color: black;
+    height: 190px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding-top: 70px;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.parent::before{
+    content: "Or";
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #03a9f4;
+    position: absolute;
+    right: 50%;
+    margin-right: -12.5px;
+    top: 50%;
+    margin-top: -10px;
+    font-size: 10px;
+    z-index: 10;
+}
+.parent::after{
+    content: "";
+    height: 100%;
+    width: 1px;
+    background-color: #03a9f4;
+    color: black;
+    position: absolute;
+    left: 50%;
+    margin-left: 2.5px;
+}
