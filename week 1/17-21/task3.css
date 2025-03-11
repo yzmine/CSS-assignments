@@ -1,0 +1,18 @@
+.one,
+.two,
+.three{
+    background-color:antiquewhite;
+    color: black;
+    padding: 15px;
+    max-width:400px;
+    margin-bottom: 15px;
+}
+.two{
+    max-height: 7px;
+    overflow: hidden;
+}
+.three{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

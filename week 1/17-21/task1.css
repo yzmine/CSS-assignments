@@ -1,0 +1,8 @@
+.text{
+    font-size: larger;
+    font-weight: 300;
+    text-shadow: 1px 1px 0px red,
+    2px 2px 0px rgb(135, 135, 210),
+    3px 3px 0px purple;
+    font-family: Arial, Helvetica, sans-serif;
+}
